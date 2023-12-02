@@ -1,1 +1,13 @@
-<h1>Daily Basket works!</h1>
+
+
+<div class="header-basket">
+    <app-header></app-header>
+</div>
+
+<div class="container-basket"  [style.height.px]="height" (window:resize)="setHeight()">
+    <app-container></app-container>
+</div>
+
+<div class="footer-basket">
+    <app-footer></app-footer>
+</div>

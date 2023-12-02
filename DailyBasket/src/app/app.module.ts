@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ContainerComponent } from './container/container.component';
+import { ResizerDirective } from './resizer.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContainerComponent } from './container/container.component';
     HeaderComponent,
     FooterComponent,
     NavigationComponent,
-    ContainerComponent
+    ContainerComponent,
+    ResizerDirective
   ],
   imports: [
     BrowserModule,

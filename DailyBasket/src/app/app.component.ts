@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DailyBasket';
+  height=0;
+  ngOnInit(){
+    this.setHeight();
+}
+  setHeight(){
+    this.height= window.innerHeight - (130);
+  }
 }
