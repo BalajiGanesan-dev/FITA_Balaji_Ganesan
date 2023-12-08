@@ -4,7 +4,7 @@
     <app-header></app-header>
 </div>
 
-<div class="container-basket"  [style.height.px]="height" (window:resize)="setHeight()">
+<div class="container-basket" appResizer>
     <app-container></app-container>
 </div>
 
