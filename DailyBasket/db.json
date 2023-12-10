@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 2,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 3,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 4,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 5,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 6,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 7,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 8,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    },
+    {
+      "id": 9,
+      "name": "daily needs",
+      "price": "100",
+      "code":"DN0056"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    },
+    {
+      "id": 2,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    },
+    {
+      "id": 3,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    },
+    {
+      "id": 4,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    },
+    {
+      "id": 5,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    },
+    {
+      "id": 6,
+      "productCode": "some comment",
+      "payment_id": 1,
+      "address":"2, renigunta, AP"
+    }
+  ],
+  "payments":[
+    {
+      "payment_id":1,
+      "order_id":1,
+      "transaction_id":2456532,
+      "gateway":"ICCI gateway"
+    },
+    {
+      "payment_id":2,
+      "order_id":1,
+      "transaction_id":2456532,
+      "gateway":"ICCI gateway"
+    },
+    {
+      "payment_id":3,
+      "order_id":1,
+      "transaction_id":2456532,
+      "gateway":"ICCI gateway"
+    },
+    {
+      "payment_id":4,
+      "order_id":1,
+      "transaction_id":2456532,
+      "gateway":"ICCI gateway"
+    },
+    {
+      "payment_id":5,
+      "order_id":1,
+      "transaction_id":2456532,
+      "gateway":"ICCI gateway"
+    }
+  ] 
+}
