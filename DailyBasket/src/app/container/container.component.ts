@@ -8,6 +8,7 @@ import {APIService} from '../api.service';
 })
 export class ContainerComponent implements OnInit {
   
+  show:any;
   constructor(private api:APIService) { 
     
   }
@@ -15,7 +16,7 @@ export class ContainerComponent implements OnInit {
   ngOnInit(): void {
     
     this.api.GetDataFromServer().subscribe(x=>{
-      console.log(x);
+      this.show=x;
     })
   }
 
