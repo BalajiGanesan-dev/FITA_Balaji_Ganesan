@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {APIService} from '../api.service';
+
 @Component({
   selector: 'app-container',
   templateUrl: './container.component.html',
@@ -12,7 +13,10 @@ export class ContainerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.api.GetDataFromServer();
+    
+    this.api.GetDataFromServer().subscribe(x=>{
+      console.log(x);
+    })
   }
 
 }
