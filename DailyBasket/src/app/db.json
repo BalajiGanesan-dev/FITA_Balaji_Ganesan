@@ -1,0 +1,130 @@
+{
+  
+  "Baby_Care": [
+    {
+      "id": 1,
+      "name": "Hand Wash",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    },
+    {
+      "id": 2,
+      "name": "Soap",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    },
+    {
+      "id": 3,
+      "name": "Baby Oil",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    }
+  ],
+  "Beauty_Care": [
+    {
+      "id": 1,
+      "name": "Hand Wash",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    },
+    {
+      "id": 2,
+      "name": "Soap",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    },
+    {
+      "id": 3,
+      "name": "Face Cream",
+      "brand": "himalaya",
+      "size":"200ml",
+      "price":100
+    }
+  ],
+
+  "Daily_Needs": [
+    {
+      "id": 1,
+      "name": "Vegetables",
+      "size":"1kg",
+      "price":100
+    },
+    {
+      "id": 2,
+      "name": "Friuts",
+      "size":"2kg",
+      "price":300
+    },
+    {
+      "id": 3,
+      "name": "Milk",
+      "size":"1ltr",
+      "price":60
+    }
+  ],
+  "Home_Essentials": [
+    {
+      "id": 1,
+      "name": "Detergents",
+      "size":"3",
+      "price":100
+    },
+    {
+      "id": 2,
+      "name": "Dish Bars",
+      "size":"5",
+      "price":30
+    },
+    {
+      "id": 3,
+      "name": "Tissues",
+      "size":"1",
+      "price":60
+    }
+  ],
+ "Kitchen_Essentials": [
+  {
+    "id": 1,
+    "name": "Rice Products",
+    "size":"25kg",
+    "price":1300
+  },
+  {
+    "id": 2,
+    "name": "Sugar",
+    "size":"2kg",
+    "price":100
+  },
+  {
+    "id": 3,
+    "name": "Masala and spices",
+    "size":"250gms",
+    "price":10
+  }
+],
+    "Snacks": [
+      {
+        "id": 1,
+        "name": "Soft Drinks",
+        "size":"4",
+        "price":100
+      },
+      {
+        "id": 2,
+        "name": "Chips",
+        "size":"500gms",
+        "price":30
+      },
+      {
+        "id": 3,
+        "name": "Biscuits",
+        "size":"3",
+        "price":60
+      }
+    ]
+  }

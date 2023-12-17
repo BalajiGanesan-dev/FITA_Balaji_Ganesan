@@ -14,6 +14,8 @@ import { SnacksComponent } from './snacks/snacks.component';
 import { BeautyCareComponent } from './beauty-care/beauty-care.component';
 import { BabyCareComponent } from './baby-care/baby-care.component';
 import { KitchenEssentialsComponent } from './kitchen-essentials/kitchen-essentials.component';
+import { RestrictCopyPasteDirective } from './restrict-copy-paste.directive';
+import { RestrictCopyPasteComponent } from './restrict-copy-paste/restrict-copy-paste.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { KitchenEssentialsComponent } from './kitchen-essentials/kitchen-essenti
     SnacksComponent,
     BeautyCareComponent,
     BabyCareComponent,
-    KitchenEssentialsComponent
+    KitchenEssentialsComponent,
+    RestrictCopyPasteDirective,
+    RestrictCopyPasteComponent
   ],
   imports: [
     BrowserModule,
