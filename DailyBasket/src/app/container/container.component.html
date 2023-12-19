@@ -1,6 +1,7 @@
 <p>container works!</p>
 <div *ngFor="let x of show">
-    <div>{{x.id}}</div>
-    <div>{{x.name}}</div>
+    <div [ngStyle]="{'background-color':isAdmin?'red':'blue'}">{{x.id}}</div>
+    <div *ngIf="isAdmin">{{x.name | Smiley}}</div>
+    <div [ngClass]="{'test':isAdmin}">{{x.name}}</div>
     
 </div>

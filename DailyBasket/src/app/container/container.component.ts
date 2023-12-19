@@ -9,6 +9,7 @@ import {APIService} from '../api.service';
 export class ContainerComponent implements OnInit {
   
   show:any;
+  isAdmin:boolean=false;
   constructor(private api:APIService) { 
     
   }
@@ -17,7 +18,12 @@ export class ContainerComponent implements OnInit {
     
     this.api.GetDataFromServer().subscribe(x=>{
       this.show=x;
+      this.isAdmin = x.trending;
     })
+    
+    setTimeout(()=>{this.isAdmin = false;},5000);
   }
+
+  
 
 }

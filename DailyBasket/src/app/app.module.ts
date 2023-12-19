@@ -14,7 +14,7 @@ import { SnacksComponent } from './snacks/snacks.component';
 import { BeautyCareComponent } from './beauty-care/beauty-care.component';
 import { BabyCareComponent } from './baby-care/baby-care.component';
 import { KitchenEssentialsComponent } from './kitchen-essentials/kitchen-essentials.component';
-
+import {Smiley} from './pipes';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +28,8 @@ import { KitchenEssentialsComponent } from './kitchen-essentials/kitchen-essenti
     SnacksComponent,
     BeautyCareComponent,
     BabyCareComponent,
-    KitchenEssentialsComponent
+    KitchenEssentialsComponent,
+    Smiley
   ],
   imports: [
     BrowserModule,

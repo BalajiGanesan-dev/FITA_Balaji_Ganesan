@@ -4,7 +4,8 @@
       "id": 1,
       "name": "daily needs",
       "price": "100",
-      "code":"DN0056"
+      "code":"DN0056",
+      "trending":true
     },
     {
       "id": 2,
