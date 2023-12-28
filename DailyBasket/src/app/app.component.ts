@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'DailyBasket';
   height=0;
+  componentTitle="App component";
+  componentDescription= " You're in app component";
   ngOnInit(){
     this.setHeight();
 }

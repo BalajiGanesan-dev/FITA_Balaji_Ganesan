@@ -1,7 +1,28 @@
 <p>container works!</p>
-<div *ngFor="let x of show">
-    <div [ngStyle]="{'background-color':isAdmin?'red':'blue'}">{{x.id}}</div>
-    <div *ngIf="isAdmin">{{x.name | Smiley}}</div>
-    <div [ngClass]="{'test':isAdmin}">{{x.name}}</div>
+<div style="display: flex; width:350px">
+    <div>
+        <div *ngFor="let x of show" (click)="sendDataToExplainer(x)" style="width:200px;cursor: pointer;">
+            <div [ngStyle]="{'background-color':isAdmin?'red':'blue'}">{{x.id}}</div>
+            <div>{{x.name | Smiley}}</div>
+            <div [ngClass]="{'test':isAdmin}">{{x.name}}</div>
+            
+        </div>
+    </div>
     
+    
+    <div>
+        <div>
+            Some content !!!
+        </div>
+        <div>
+            Some content !!!
+        </div>
+        <div>
+            <app-sample-child [recieveData]="sendDetails"></app-sample-child>
+        </div>
+        
+    
+    </div>
 </div>
+
+

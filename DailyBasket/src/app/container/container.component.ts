@@ -10,6 +10,7 @@ export class ContainerComponent implements OnInit {
   
   show:any;
   isAdmin:boolean=false;
+  sendDetails:any;
   constructor(private api:APIService) { 
     
   }
@@ -18,12 +19,15 @@ export class ContainerComponent implements OnInit {
     
     this.api.GetDataFromServer().subscribe(x=>{
       this.show=x;
-      this.isAdmin = x.trending;
+     // this.isAdmin = x.trending;
     })
     
     setTimeout(()=>{this.isAdmin = false;},5000);
   }
 
-  
+  sendDataToExplainer(x:any):void{
+    console.log("clicked");
+     this.sendDetails = x;
+  }
 
 }

@@ -15,6 +15,9 @@ import { BeautyCareComponent } from './beauty-care/beauty-care.component';
 import { BabyCareComponent } from './baby-care/baby-care.component';
 import { KitchenEssentialsComponent } from './kitchen-essentials/kitchen-essentials.component';
 import {Smiley} from './pipes';
+import { PopupComponent } from './common/popup/popup.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SampleChildComponent } from './sample-child/sample-child.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +32,15 @@ import {Smiley} from './pipes';
     BeautyCareComponent,
     BabyCareComponent,
     KitchenEssentialsComponent,
-    Smiley
+    Smiley,
+    PopupComponent,
+    SampleChildComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
